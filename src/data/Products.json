@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "infobae",
+    "description": "123",
+    "price": 12020202,
+    "code": "0123maldf",
+    "stock": 234,
+    "status": true,
+    "category": "amasdfa"
+  },
+  {
+    "id": 2,
+    "title": "claudio",
+    "description": "sdfkaj",
+    "price": 1230,
+    "code": "asdlkfal",
+    "stock": 200,
+    "status": true,
+    "category": "asldkfjal"
+  }
+]

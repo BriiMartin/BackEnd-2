@@ -1,0 +1,20 @@
+<div>
+    
+     <main>
+    <h1>Lista de Productos estaticos y aburridos</h1>
+    <ul id="product-list">
+      {{#each products}}
+        <li id="product-{{this.id}}">
+          <h2>{{this.title}}</h2>
+          <p>Descripción: {{this.description}}</p>
+          <p>Precio: ${{this.price}}</p>
+          <p>Código: {{this.code}}</p>
+          <p>Stock: {{this.stock}}</p>
+          <p>Estado: {{this.status}}</p>
+          <p>Categoría: {{this.category}}</p>
+          <button onclick="deleteProduct('{{this.id}}')">Eliminar</button>
+        </li>
+      {{/each}}
+    </ul>
+  </main>
+</div>
